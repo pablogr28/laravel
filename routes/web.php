@@ -24,5 +24,5 @@ Route::middleware('auth')->group(function () {
     Route::resource('players', PlayerController::class);
 });
 
-// Requiere el archivo de autenticación de Laravel
+// Requiere el archivo de autenticacion de Laravel
 require __DIR__.'/auth.php';
